@@ -141,11 +141,7 @@ div.textBG {
 #mainnav {
 	background-color: rgba(255,255,255,0.70);
 }
-#sidecontent {
-	bottom: 0;
-	background-color: rgba(255,255,255,0.70);
-	display:none;
-}
+
 #mainsection {
 	clear: both;
 	margin-left: 0;
@@ -431,12 +427,14 @@ div.videoContainer {
 	margin-left: 1.6949%;
 	clear: none;
 	background-color: undefined;
+	background-repeat: no-repeat;
 }
 #homemainsection {
 	width: 98%;
 
 	clear: none;
 	background-color: undefined;
+
 }
 
 .bandcamp {
