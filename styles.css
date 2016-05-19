@@ -106,124 +106,6 @@ h2 {
 
 
 
-/* Mobile version of the drop down menu */
-#dropdownmobile	{
-	width: 100%;
-	height: 30px; 
-	margin-left: 0;
-	margin-left: 0;
-	margin: 0; /* space between sides of the screen and the menu */
-	z-index: 999999;
-	position: relative; 
-	background-color: transparent;
-}
-.navbar	{
-	height: 30px;
-	padding: 0;
-	margin: 0;
-	position: relative;
-}
-.navbar li ul 	{
-		display: none;  /* Hides the drop-down items */
-		height: auto;									
-		margin: 0;
-		padding: 0;
-		width: inherit;	
-		position: absolute;	
-		}				
-.navbar li ul li a 	{
-		/*border-left: 1px solid rgba(0, 0, 0, 0.1);
-		border-right: 1px solid rgba(0, 0, 0, 0.1);*/
-		border-top: 1px solid rgba(0, 0, 0, 0.1);
-		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-		}
-.navbar li:hover ul 	{
-                        display: block; /* Displays the drop-down box when the menu item is hovered over */
-                        }
-.navbar a	{							
-		padding: 6px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
-		border-left: 1px solid rgba(0, 0, 0, 0.1); /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
-		border-right: 1px solid rgba(0, 0, 0, 0.1); /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
-		text-decoration: none;  /* Removes the default hyperlink styling. */
-		display: block;
-		font-size: 0.8em;
-		font-style: normal;
-		}
-.navbar li 	{
-	height: auto;
-	width: 33.333%;  /* Each menu item is 150px wide */
-	float: left;  /* This lines up the menu items horizontally */
-	text-align: center;  /* All text is placed in the center of the box */
-	list-style: none;  /* Removes the default styling (bullets) for the list */
-	padding: 0;
-	margin: 0;
-	background-color: rgba(255, 255, 255, 0.9);
-}
-
-
-
-
-
-/* Tablet version of the drop down meny */
-#dropdowntablet	{
-	width: 100%; /* Spans the width of the page */
-	height: 40px; 
-	margin-left: 0;
-	margin-left: 0;
-	margin: 0; /* Ensures there is no space between sides of the screen and the menu */
-	z-index: 999999; /* Makes sure that your menu remains on top of other page elements */
-	position: relative; 
-	background-color: transparent;
-	display: none;
-}
-.navbartablet	{
-	height: 40px;
-	padding: 0;
-	margin: 0;
-	position: relative; /* Ensures that the menu doesn’t affect other elements if absolute */
-}
-.navbartablet li ul 	{
-		display: none;  /* Hides the drop-down menu */
-		height: auto;									
-		margin: 0; /* Aligns drop-down box underneath the menu item */
-		padding: 0; /* Aligns drop-down box underneath the menu item */	
-		width: inherit;	
-		position: absolute;	
-		}				
-.navbartablet li ul li a 	{
-		/*border-left: 1px solid rgba(0, 0, 0, 0.1);
-		border-right: 1px solid rgba(0, 0, 0, 0.1);*/
-		border-top: 1px solid rgba(0, 0, 0, 0.1);
-		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-		}
-.navbartablet li:hover ul 	{
-                        display: block; /* Displays the drop-down box when the menu item is hovered over */
-                        }
-.navbartablet a	{							
-		padding: 10px 0;  /* Adds a padding on the top and bottom so the text appears centered vertically */
-		border-left: 1px solid rgba(0, 0, 0, 0.1); /* Creates a border in a slightly lighter shade of blue than the background.  Combined with the right border, this creates a nice effect. */
-		border-right: 1px solid rgba(0, 0, 0, 0.1); /* Creates a border in a slightly darker shade of blue than the background.  Combined with the left border, this creates a nice effect. */
-		text-decoration: none;  /* Removes the default hyperlink styling. */
-		display: block;
-		font-size: 1em;
-		font-style: normal;
-		}
-.navbartablet li 	{
-	height: auto;
-	width: 25%;  /* Each menu item is 150px wide */
-	float: left;  /* This lines up the menu items horizontally */
-	text-align: center;  /* All text is placed in the center of the box */
-	list-style: none;  /* Removes the default styling (bullets) for the list */
-	padding: 0;
-	margin: 0;
-	background-color: rgba(255, 255, 255, 0.9);
-}
-
-
-
-
-
-
 
 div.textBG {
 	padding:3%;
@@ -543,17 +425,9 @@ div.videoContainer {
 	margin-left: auto;
 }
 
-#sidecontent {
-	width: 15%;
-	min-width: 132px;
-	max-width: 170px;
-	padding-top: 50px;
-	padding-left: 10px;
-	padding-right: 10px;
-	display:inline
-}
+
 #mainsection {
-	width: 80%;
+	width: 100%;
 	margin-left: 1.6949%;
 	clear: none;
 	background-color: undefined;
